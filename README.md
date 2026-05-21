@@ -17,9 +17,9 @@ Clean, well-commented code with proper functions and docstrings
 
 EXAMPLE
 
-Input (rosalind_revc.txt):AAAACCCGGT
+Input (rosalind_revc.txt): AAAACCCGGT
 
-Output:ACCGGGTTTT
+Output: ACCGGGTTTT
 
 HOW IT WORKS
 
