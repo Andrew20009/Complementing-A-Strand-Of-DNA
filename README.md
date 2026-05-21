@@ -17,15 +17,16 @@ Clean, well-commented code with proper functions and docstrings
 
 EXAMPLE
 
-Input (rosalind_revc.txt):TCCGTAAGACTAGC
-Output:UCCGUAAGACUAGC
+Input (rosalind_revc.txt):AAAACCCGGT
+
+Output:ACCGGGTTTT
 
 HOW IT WORKS
 
 The program reads the DNA sequence from the file.
 It cleans the input (removes whitespace and converts to uppercase).
-It changes all T laters in file to U and puts everything in the (rna) sequence.
-Finally, it prints the RNA sequence.
+It changes all A letters in file to T, T to A, C to G, G to C. Reverses the DNA sequence.
+Finally, it prints the DNAsequence.
 
 
 TECHNOLOGIES USED
