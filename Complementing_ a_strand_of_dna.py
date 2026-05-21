@@ -13,24 +13,24 @@ def read_dna_from_txt(file_path: str) -> str:
 def change_nucleotides(sequence: str) -> str:
     dna = ""  # Initialize empty variable for the DNA
     
-    for nucleotide in sequence: #Creates an elif function that replaces A, T, C, G Nucleotides with complementary bases
-        if nucleotide == 'A':
+    for nucleotide in sequence: # Creates an elif function that replaces A, T, C, G Nucleotides with complementary bases
+        if nucleotide == 'A': # Changes A with T
             dna += 'T'
-        elif nucleotide == 'T':
+        elif nucleotide == 'T': # Changes T with A
             dna += 'A'
-        elif nucleotide == 'C':
+        elif nucleotide == 'C': # Changes C with G
             dna += 'G'
-        elif nucleotide == 'G':
+        elif nucleotide == 'G': # Changes G with C
             dna += 'C'
         else:
-            dna += nucleotide # Protection in case the symbol is not A, T, C, G
+            dna += nucleotide # Protection for the code in case the symbol is not A, T, C, G
 
-    return dna [:: -1] # Function of reversing DNA
+    return dna [:: -1] # Function of reversing DNA (slicing)
 
 
 if __name__ == "__main__": # Entry point of the code
     file = "rosalind_revc.txt" # Assign the filename to the variable
-    seq = read_dna_from_txt(file) 
-    dna_final = change_nucleotides(seq)
+    seq = read_dna_from_txt(file) # Import the specific variable from the other code
+    dna_final = change_nucleotides(seq) # Import the specific variable from the other code
     
     print(dna_final) # Printing the final result
