@@ -2,8 +2,8 @@ Completing A Strang Of DNA
 
 OVERVIEW
 
-This program reads a DNA sequence from a text file and changes the sequence to the RNA; changes T in the DNA sequence to U in the RNA sequence.
-It is a solution to the "Transcribing DNA into RNA" Rosalind problem. The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
+This program reads a DNA sequence from a text file,  and changes the sequence to the RNA; changes T in the DNA sequence to U in the RNA sequence.
+It is a solution to the "Completing A Strang Of DNA" Rosalind problem (ID: REVC). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
 
 FEATURES
 
