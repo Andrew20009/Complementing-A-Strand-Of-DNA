@@ -1,9 +1,9 @@
-Completing A Strand Of DNA
+Complementing a Strand of DNA
 
 OVERVIEW
 
 This program reads a DNA sequence from a text file, creates complementary pairs,  and reverses the sequence.
-It is a solution to the "Completing A Strand Of DNA" Rosalind problem (ID: REVC). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
+It is a solution to the "Complementing a Strand of DNA" Rosalind problem (ID: REVC). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
 
 FEATURES
 
