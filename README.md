@@ -8,9 +8,9 @@ It is a solution to the **"Complementing a Strand of DNA"** Rosalind problem **(
 
 ## FEATURES
 - Reads DNA sequence from a file <u>(rosalind_revc.txt)</u>
-- Automatically converts input to **uppercase**
+- Automatically converts input to uppercase
 - Creates <u>complementary pairs</u> for the DNA
-- **Reverses** the DNA sequence
+- Reverses the DNA sequence
 - Fast and memory-efficient — works well with long sequences
 - Clean, well-commented code with proper functions and docstrings
 
@@ -35,12 +35,12 @@ ACCGGGTTTT
 
 ## HOW IT WORKS
 1. The program reads the DNA sequence from the file
-2. It cleans the input (removes whitespace and converts to **uppercase**)
+2. It cleans the input (removes whitespace and converts to uppercase)
 3. It changes all letters: <u>A→T, T→A, C→G, G→C</u> and reverses the DNA sequence
-4. Finally, it prints the **DNA sequence**
+4. Finally, it prints the DNA sequence
 
 ---
 
 ## TECHNOLOGIES USED
 - **Python**
-- **File I/O** (txt)
+- **TXT File**
